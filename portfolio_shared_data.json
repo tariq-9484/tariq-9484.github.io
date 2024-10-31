@@ -1,0 +1,73 @@
+{
+    "basic_info": {
+      "name": "Haider Tariq",
+      "titles": [ "Full-stack Developer", "Senior Rails Engineer", "Dev Team lead", "Senior Python Engineer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/tariq-9484",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.instagram.com/haider.tariq",
+          "class": "fab fa-linkedin-in"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "Ruby on Rails",
+          "class": "devicon-rails-plain",
+          "level": "85"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "90"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "90"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "80"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "75"
+        },
+        {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "75"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain",
+          "level": "70"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain-wordmark",
+          "level": "70"
+        },
+        {
+          "name": "NGINX",
+          "class": "devicon-nginx-original",
+          "level": "65"
+        },
+        {
+          "name": "Github",
+          "class": "devicon-github-original",
+          "level": "65"
+        }
+      ]
+    }
+  }
