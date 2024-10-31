@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Haider Tariq. With over 5 years of experience in full stack development, I specialize in crafting robust backend solutions using Python and Ruby on Rails, seamlessly integrated with dynamic front-end frameworks like React. My expertise extends to various AWS cloud services(EC2, ECS, Cloudwatch, Cloudfront, S3 etc) empowering me to design and deploy scalable applications with ease. I’m well-versed in CI/CD processes using GitLab, GitHub, and CircleCI, ensuring smooth and efficient workflows from development to deployment. Passionate about the entire software development lifecycle—from gathering requirements to final launch—I’m committed to delivering projects that not only meet but exceed expectations. Let’s bring your vision to life! Thank you 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,42 +11,50 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
+        "title": "EZR/EZO",
         "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "I had the opportunity to work on a highly expanded application where I implemented REST APIs and developed a Rails app integrated with a front end using core Ruby and Bootstrap. I also created background jobs with Delayed Job and optimized tasks by integrating Redis. Additionally, I enhanced the payment module by integrating Stripe and implementing testable webhooks. Throughout the project, I designed and delivered multiple production-grade modules.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/7vals/ezo-main.webp",
+          "images/portfolio/7vals/asset-sonar-main.webp",
+          "images/portfolio/7vals/ez-office3.webp",
+          "images/portfolio/7vals/ez-office4.png",
+          "images/portfolio/7vals/ez-office5.png"
         ],
-        "url": "",
+        "url": "https://ezo.io/ezofficeinventory/",
         "technologies": [
+          {
+            "class": "devicon-rails-plain",
+            "name": "ROR"
+          },
           {
             "class": "devicon-angularjs-plain",
             "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSql"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Landit",
+        "startDate": "2021",
+        "description": "I worked as a back-end engineer using Ruby on Rails on the Landit platform, focusing on the coach payments module used by all Landit coaches to track their payments. I upgraded the Rails version from 6 to 7 and developed the ROI feature on Edly, enabling customers to track their accomplishments over time. Additionally, I reduced email processing time significantly by transferring emails to SendGrid dynamic templates and optimizing Sidekiq jobs. I also improved article fetching times extensively by implementing Elasticsearch on the Article model for Landit. Currently, I am working on a chatbot by fine-tuning ChatGPT for Landit.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/arbisoft/landit-main.png",
+          "images/portfolio/arbisoft/landit-1.png",
+          "images/portfolio/arbisoft/landit-2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://www.landit.com/",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-rails-plain",
+            "name": "ROR"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSql"
           },
           {
             "class": "devicon-javascript-plain",
@@ -55,63 +63,242 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "SahazMoney",
+        "startDate": "2022",
+        "description": "At SahazMoney, I was responsible for full-stack development from the ground up, implementing models, views, and templates using Bootstrap and core Django. I utilized Django Rest Framework (DRF) to expose APIs for third-party integrations, enabling SahazMoney to be utilized across various platforms. This comprehensive approach ensured a seamless user experience and enhanced the application's versatility in diverse environments. I also assisted in alpha-deployment to heroku cloud",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/arbisoft/sahazmoney-main.png"
         ],
-        "url": "https://github.com",
+        "url": "https://sahazmoney.com/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
+            "class": "devicon-django-plain",
+            "name": "Python/Django"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSql"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-heroku-plain",
+            "name": "Heroku"
+          }
+        ]
+      },
+      {
+        "title": "Ignis",
+        "startDate": "2023",
+        "description": "As a Frontend Developer on the TRP Platform, I implemented telehealth SaaS applications using HTML, CSS, Angular, Python, Django, and AWS S3. I established a drag-and-drop mechanism for users to create dynamic forms, enhancing data collection throughout the telehealth service. I conducted code reviews, providing feedback that improved the quality of our service management and analytics products. Collaborating closely with clients, I ensured seamless integration of telehealth applications into their systems. Additionally, I optimized the SaaS product to enhance loading times for large data sets.",
+        "images": [
+          "images/portfolio/side-projects/ignis-main.png",
+          "images/portfolio/side-projects/ignis-1.png",
+          "images/portfolio/side-projects/ignis-2.png"
+        ],
+        "url": "https://ignishealth.com/",
+        "technologies": [
+          {
+            "class": "devicon-angular-plain",
             "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSql"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-python-plain",
+            "name": "Python/Django"
+          }
+        ]
+      },
+      {
+        "title": "Unlisted",
+        "startDate": "2024",
+        "description": "I provided back-end support for migration to a new front end and improved properties search functionality by applying AWS OpenSearch. I developed Rails APIs for token-based stateless authentication and implemented seamless image uploading to S3, along with retrieval and deletion. Additionally, I served images using CloudFront.",
+        "images": [
+          "images/portfolio/arbisoft/unlisted-main.png",
+          "images/portfolio/arbisoft/unlisted-2.png",
+          "images/portfolio/arbisoft/unlisted-3.png"
+        ],
+        "url": "https://unlistedhomes.com/",
+        "technologies": [
+          {
+            "class": "devicon-rails-plain",
+            "name": "ROR"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSql"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Listentool",
+        "startDate": "2024",
+        "description": "At ListenTool, I led the Django upgrade project, successfully managing three major releases to upgrade the framework from version 2 to 5. Additionally, I implemented the competence module, developing Angular components and creating APIs using Django Rest Framework (DRF). This work not only modernized the application but also enhanced its functionality and user experience.",
+        "images": [
+          "images/portfolio/arbisoft/listentool-main.png",
+          "images/portfolio/arbisoft/listentool-2.png",
+          "images/portfolio/arbisoft/listentool-3.png"
+        ],
+        "url": "https://listentool.com/",
+        "technologies": [
+          {
+            "class": "devicon-django-plain",
+            "name": "Python/Django"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSql"
+          },
+          {
+            "class": "devicon-angular-plain",
+            "name": "Angular"
+          }
+        ]
+      },
+      {
+        "title": "Passbolt",
+        "startDate": "2024",
+        "description": "At Passbolt, I added a new feature to support Google Single Sign-On (SSO) for enhanced user authentication. I successfully upgraded Passbolt to the latest release, managing over 1,500 commits while carefully resolving conflicts and restoring the commit history that had been disrupted during a previous upgrade on GitLab. Additionally, I contributed to the alpha and beta deployments by setting up servers using Nginx, ensuring a smooth deployment process and optimal performance. Passbolt is being used by hundreds of users across Arbisoft.",
+        "images": [
+          "images/portfolio/arbisoft/passbolt-main.png",
+          "images/portfolio/arbisoft/passbolt-2.webp",
+          "images/portfolio/arbisoft/passbolt-3.png"
+        ],
+        "url": "https://unlistedhomes.com/",
+        "technologies": [
+          {
+            "class": "devicon-php-plain",
+            "name": "Php"
+          },
+          {
+            "class": "devicon-gitlab-plain",
+            "name": "Gitlab"
+          },
+          {
+            "class": "devicon-nginx-plain",
+            "name": "Nginx"
+          }
+        ]
+      },
+      {
+        "title": "Pycon",
+        "startDate": "2024",
+        "description": "At PyCon-Web, I wrote unit tests in Django and developed automation tests using Selenium to ensure robust application functionality. Additionally, I created CI/CD pipelines for project deployment on GitLab CI, streamlining the deployment process and enhancing overall workflow efficiency.",
+        "images": [
+          "images/portfolio/arbisoft/pycon-main.png",
+          "images/portfolio/arbisoft/pycon-2.png",
+          "images/portfolio/arbisoft/pycon-3.png"
+        ],
+        "url": "https://pycon.pk/",
+        "technologies": [
+          {
+            "class": "devicon-django-plain",
+            "name": "Python/Django"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSql"
+          },
+          {
+            "class": "devicon-gitlab-plain",
+            "name": "Gitlab"
+          }
+        ]
+      },
+      {
+        "title": "Edly",
+        "startDate": "2024",
+        "description": "At Edly, I served as a full-stack engineer, engineering the career development platform using Python/Django and React/Redux. I spearheaded the creation of the ROI feature, enabling students to systematically track their accomplishments over time. I orchestrated the integration of real-time collaboration features within the learning platform, resulting in a remarkable 30% increase in user engagement. Additionally, I devised and implemented a cutting-edge data-driven recommendation system, which contributed to a notable 25% rise in course completion rates. I optimized backend processes, achieving a substantial 20% reduction in server response times, and pioneered the development of two additional functionalities that enhanced the platform's overall capabilities. My role also included conducting comprehensive code reviews and debugging to ensure seamless performance. Furthermore, I successfully migrated an entire module from Ruby to Python (Flask) using Apache Kafka, Nginx, and Docker containerization.",
+        "images": [
+          "images/portfolio/arbisoft/edly-main.png",
+          "images/portfolio/arbisoft/edly-2.png",
+          "images/portfolio/arbisoft/edly-3.png"
+        ],
+        "url": "https://edly.io/",
+        "technologies": [
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Arbisoft",
+        "title": "Senior Software Engineer",
+        "years": "3.5.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Ruby on Rails/Python"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "ROR",
+          "Python",
+          "Django",
+          "React",
+          "PostgreSql",
+          "Elasticsearch",
+          "S3",
+          "CircleCI",
+          "GitlabCI",
+          "Sidekiq",
+          "Redis",
+          "AWS"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "7Vals",
+        "title": "Ruby on Rails Engineer",
+        "years": "08.2020 - 06.2021",
         "mainTech": [
-          "Angular 7/8"
+          "Ruby on Rails"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "ROR",
+          "Stripe",
+          "Bootstrap",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Angular",
+          "PostgreSql",
+          "GraphQL"
+        ]
+      },
+      {
+        "company": "RUN",
+        "title": "Python Developer",
+        "years": "08.2019 - 06.2020",
+        "mainTech": [
+          "Python/Django"
+        ],
+        "technologies": [
+          "Python",
+          "Django",
+          "React",
+          "PostgreSql",
+          "Selenium",
+          "Redis",
+          "Docker"
         ]
       }
     ]
